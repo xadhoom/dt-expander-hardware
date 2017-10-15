@@ -14,6 +14,14 @@ Each board can handle 8 analog sensors and 3 digital ones.
 
 Multiple boards can be connected over a single CAN bus.
 
+### dt-expander-v2
+An updated board based on Detectino_nodcdc, where the 3 digital input have been removed,
+analog inputs increased from 8 to 16, 2 relays outputs have been added, along with
+6 Open Collector outputs.
+
+To accomodate all needed I/O, the board is plugged with an Arduino Mega2650 Pro Mini:
+http://wiki.epalsite.com/index.php?title=Mega2560_Pro_Mini
+
 ### Detectino_raspi
 This is the "core" board, which is a piggy back for RaspberryPi B+,
 which provides isolated CAN bus and isolated power supply using
